@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
+
+.Navbar{
+    width: 100%;
+    height:50px;
+    background-color: rgb(52, 20, 61) ;
+    opacity: 0.9;
+    padding-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+#e{
+    filter:contrast(1.5);
+    
+}
+#ele{
+    color:rgb(255, 255, 255);
+    font-size: 30px; 
+    font-family: 'Quantico', sans-serif;
+    
+}
+.inner-left{
+    display: flex;
+}
+.logo{
+    padding-left: 100px;
+    
+}
+.inner-right{
+    display: flex;
+    justify-content:space-between;
+    max-height: 30px;
+    padding-top: 5px;
+    padding-right: 100px;
+    text-align: right;
+    
+   
+}
+
+.navicon,.navicon2{
+    display: flex;
+    justify-content: center;
+    padding: 5px ;
+    transition-duration: 0.4s;
+    cursor: pointer;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+    color:white
+    
+}
+.navicon2{
+    background-color: grey;
+}
+#btn{
+    transition-duration: 0.4s;
+    cursor: pointer;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    border-radius: 15px;
+    border-style: none;
+    color:white;
+    font-size: large;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+}
+.navicon2:hover{
+    border-style: groove;
+    background-color: rgb(53, 52, 52);
+}
+.navicon:hover{
+    background-color: grey;
+}
