@@ -48,7 +48,7 @@ const Login = () => {
            
         </div>
         {action==="Sign Up"?<div></div>:<div className="forgot-password">Forgot Password? <span>Click here</span></div>}
-        <div className='btn'><button className='loginbtn' onClick={handleLogin}>Login</button></div>
+        <div className='login-btn'><button className='log-btn' onClick={handleLogin}>Login</button></div>
         <div className='already'><span>Doesn't have an account ? <a onClick={handleRegister}><span id='r'>Register</span></a></span></div>
         
         {/* <div className="submit-container">

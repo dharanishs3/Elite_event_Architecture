@@ -9,6 +9,10 @@ import { useNavigate } from 'react-router-dom'
 import Button from '@mui/material/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope, faMusic, faUtensils, faPhotoVideo, faBirthdayCake } from '@fortawesome/free-solid-svg-icons';
+import About from '../About/About'
+import Contact from '../Contact/Contact'
+import Footer from './Footer/Footer'
+
 
 
 
@@ -26,8 +30,8 @@ export default function Homepg() {
             </div>
             <div className='inner-right'>
                 <div className='navicon'>Home</div>
-                <div className='navicon'>About</div>
-                <div className='navicon'>Contact</div>
+               <a href='#ab-down' style={{textDecoration:'none'}}><div className='navicon'>About</div></a> 
+               <a href='#con-down' style={{textDecoration:'none'}}> <div className='navicon'>Contact</div></a>
                 <div className='navicon2'><button id='btn' onClick={handleLogin}>Login</button></div>
             </div>  
         </nav>
@@ -88,7 +92,15 @@ export default function Homepg() {
             </div>
         </section>
         <div>
-            
+          <div id='ab-down'>
+            <About/>
+          </div>
+          <div id='con-down'>
+            <Contact/>
+          </div>
+          <div>
+            <Footer/>
+          </div>
         </div>
     </div>
   );

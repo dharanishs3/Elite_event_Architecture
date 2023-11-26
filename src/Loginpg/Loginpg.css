@@ -148,24 +148,25 @@
     background: #EAEAEA;
     color: #676767;
 }
-.loginbtn{
-    background-color: rgb(241, 241, 241);
+.log-btn{
+    background-color: rgb(30, 57, 144);
     border: 0ch;
     border-radius: 25px;
-    height: 40px;
+    height: 35px;
+    padding-top: 0%;
     width: 80px;
     font-size: 25px;
     font-weight: 500;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-.loginbtn:hover{
+.log-btn:hover{
     background-color: rgb(46, 148, 182);
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
 }
-.btn{
+.login-btn{
    padding-top: 20px;
     
 }

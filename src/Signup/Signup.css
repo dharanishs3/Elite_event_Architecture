@@ -112,8 +112,8 @@
     background: #EAEAEA;
     color: #676767;
 }
-.signbtn{
-    background-color: rgb(241, 241, 241);
+.sign-btn{
+    background-color: rgb(108, 106, 106);
     border: 0ch;
     border-radius: 25px;
     height: 38px;
@@ -123,12 +123,12 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-.signbtn:hover{
+/* .sign-btn:hover{
     background-color: rgb(62, 103, 216);
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
-}
+} */
 .btn{
    padding-top: 30px;
     

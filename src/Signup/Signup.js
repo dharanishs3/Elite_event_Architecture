@@ -45,7 +45,7 @@ const Signup = () => {
             </div>
         </div>
         {/* {action==="Sign Up"?<div></div>:<div className="forgot-password">Forgot Password? <span>Click here</span></div>} */}
-        <div className='btn'><button onClick={handleSign} className='signbtn'>SignUp</button></div>
+        <div className='btn'><button onClick={handleSign} className='sign-btn'>SignUp</button></div>
         
         <div className="submit-container">
         {/* <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div> */}

@@ -1,0 +1,54 @@
+
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #a8a8ac;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Add some responsive styles */
+  @media screen and (max-width: 600px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  .cform{
+    width: 400px; background-color: #3e3e3f;
+    padding: 20px; 
+    border-radius: 4px;
+  }
+  

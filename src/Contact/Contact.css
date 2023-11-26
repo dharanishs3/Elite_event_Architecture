@@ -1,0 +1,17 @@
+h1 span{
+    color: darkblue;
+}
+.co{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+     padding: 20px;
+     justify-content: space-around;
+}
