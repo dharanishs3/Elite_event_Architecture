@@ -36,8 +36,10 @@ export default function Mainpg() {
             </div>  
         </nav>
         <div className='intro'>
-            <div className='int'>ITS TIME TO CELBRATE! THE</div>
-            <div className='int'>BEST <span style={{color:'darkblue'}}>EVENT ORGANIZERS</span></div>
+        <div className='int'>"Welcome to <span style={{color:'darkblue'}}>Elite Event Architecture</span>, </div>
+            <div className='int'>where your special moments  </div>
+            <div className='int'>become unforgettable events!" </div>
+           
            
         </div>
         <div className='ig'>
