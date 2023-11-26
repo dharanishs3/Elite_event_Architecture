@@ -7,7 +7,7 @@ import aswath from './aswath.jpeg'
 
 export default function About() {
   return (
-    <div className='ab'>
+    <div className='ab' id='abt-home'>
            <h1 className='heading'><span style={{color:'darkblue'}}>ABOUT </span>US</h1>
            <div className='ro'>
               <div className='image'>
