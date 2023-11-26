@@ -1,68 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
-.lp{
-    /* display: flex;
-    flex-direction: row; */
+.container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(23rem, 1fr));
-    background: linear-gradient(45deg, rgb(66, 110, 221), rgb(107, 206, 221),#ffffff);
-  
-   
-}
-
-
-  #e{
-    filter: contrast(1);
-  }
-
-.comp{
-    width:60%;
-    display: flex;
-    justify-content: center;
-    margin-top: 250px;
-}
-#el{
-    font-size: 150px;
-    color: rgb(247, 245, 249);
-    font-family: 'Quantico', sans-serif;
-
-}
-#lc{
-    padding-right: 0px;
-}
-.container{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin: auto;
-    margin-top: 160px;
+    margin-top: 180px;
     background: #fff;
     padding-bottom: 30px;
-   height:450px;
+    height: 450px;
     width:400px;
     border-radius: 10px;
-    filter: brightness(1.3);
     background-image: url(https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    transition: transform 0.5s ease; 
     /* background-image: linear-gradient(to right, rgb(70, 66, 66) , rgb(205, 205, 193)); */
 }
-
-.container:hover {
-    transform: scale(1.1);
-  }
-  
 
 .header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 9px;
     width: 100%;
-    
+    margin-top: 20px;
 }
 
 .text{
-    margin-top: 50px;
+    margin-top: 0px;
     color: #ffffff;
     font-size: 30px;
     font-weight: 600;
@@ -93,7 +57,7 @@
     width: 300px;
     height: 50px;
     background: #eaeaea;
-    border-radius: 18px;
+    border-radius: 25px;
 }
 
 .input img{
@@ -108,7 +72,7 @@
     background: transparent;
     border: none;
     outline: none;
-    color: #0c0c0c;
+    color: #111010;
     font-size: 15px;
 }
 
@@ -148,25 +112,25 @@
     background: #EAEAEA;
     color: #676767;
 }
-.loginbtn{
+.signbtn{
     background-color: rgb(241, 241, 241);
     border: 0ch;
     border-radius: 25px;
-    height: 40px;
-    width: 80px;
-    font-size: 25px;
+    height: 38px;
+    width: 90px;
+    font-size: 22px;
     font-weight: 500;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-.loginbtn:hover{
-    background-color: rgb(46, 148, 182);
+.signbtn:hover{
+    background-color: rgb(62, 103, 216);
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
 }
 .btn{
-   padding-top: 20px;
+   padding-top: 30px;
     
 }
 .already{
@@ -177,9 +141,9 @@
     font-size: small;
 
 }
-/* #r{
+#r{
     text-decoration: underline;
     color:rgb(103, 153, 171);
     cursor: pointer;
     
-} */
+}

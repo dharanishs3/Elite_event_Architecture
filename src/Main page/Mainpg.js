@@ -6,9 +6,11 @@ import { useNavigate } from 'react-router-dom'
 
 export default function Mainpg() {
     const navigate=useNavigate();
-    const handleLogin=()=>{
-        navigate('/login');
+    const handleLogout=()=>{
+        window.alert('Are you sure you want to log out?');
+        navigate('/');
     }
+
   return (
     <div className='hp'>
         <nav className='Navbar'>
@@ -21,7 +23,7 @@ export default function Mainpg() {
                 <div className='navicon'>Services</div>
                 <div className='navicon'>About</div>
                 <div className='navicon'>Contact</div>
-                <div className='navicon2'><button id='btn' onClick={handleLogin}>Logout</button></div>
+                <div className='navicon2'><button id='btn' onClick={handleLogout}>Logout</button></div>
             </div>  
         </nav>
     </div>

@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import './Loginpg.css'
+import logo from './logo.png'
 import { useNavigate } from 'react-router-dom';
+
 
 
 const Login = () => {
@@ -15,12 +17,20 @@ const Login = () => {
     const[action,setAction] = useState("Login");
     
   return (
-    <div className='container'>
-        <div className="header">
-            <div className="text">{action}</div>
-            <div className="underline"></div>
+    <div>
+    <div className='lp' style={{backgroundColor:'grey',height:'100vh',display:'flex'}}>
+        <div className='comp'>
+           <div className='logo'><img src={logo} alt='' id='e' height={200} width={200}></img></div>
+           <div id='el'>Arch</div>
         </div>
-        <div className="inputs">
+
+        <div id='lc'>
+       <div className='container' >
+           <div className="header">
+               <div className="text">{action}</div>
+               <div className="underline"></div>
+           </div>
+           <div className="inputs">
             
 
             {action==="Login"?<div></div>: <div className="input">
@@ -44,7 +54,10 @@ const Login = () => {
         {/* <div className="submit-container">
         <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
         <div className={action==="Sign Up"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div>
-        </div> */}
+    </div> */}
+        </div>
+    </div>
+    </div>
     </div>
   );
 };
