@@ -29,14 +29,14 @@
 #lc{
     padding-right: 0px;
 }
-.container{
+.containe{
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 160px;
     background: #fff;
     padding-bottom: 30px;
-   height:450px;
+   height:400px;
     width:400px;
     border-radius: 10px;
     filter: brightness(1.3);

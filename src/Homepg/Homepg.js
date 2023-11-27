@@ -43,7 +43,7 @@ export default function Homepg() {
         <div className='ig'>
             <img src='https://www.rajwadaevents.com/uploaded-files/feature-images/Corporate-Events03_50_48.jpg' alt='Earch' id='we' ></img>
         </div>
-        <section className='service' id='service'>
+        {/* <section className='service' id='service'>
             <h1 className='heading'> Our <span style={{color:'darkblue'}}>Services</span></h1>
             
             <div className='box-container' id='map'>
@@ -90,7 +90,7 @@ export default function Homepg() {
             </div>
           </div>
             </div>
-        </section>
+        </section> */}
         <div>
           <div id='ab-down'>
             <About/>

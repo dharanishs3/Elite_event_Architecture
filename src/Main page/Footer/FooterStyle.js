@@ -6,7 +6,7 @@
 //     color: black;
 // }
 // Fliename - FooterStyles.js
-import logo from './logo.png'
+
 import styled from "styled-components";
 
 export const Box = styled.div`

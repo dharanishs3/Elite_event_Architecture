@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Quantico:wght@700&display=swap');
+
+.Navbar{
+    width: 100%;
+    height:60px;
+    background: linear-gradient(to right,rgb(66, 110, 221), #3498db, rgb(107, 206, 221));
+    opacity: 0.9;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+#e{
+    filter:contrast(1.5);
+    
+}
+#ele{
+    color:rgb(255, 255, 255);
+    font-size: 30px; 
+    font-family: 'Quantico', sans-serif;
+    
+}
+.inner-left{
+    display: flex;
+   
+}
+.logo{
+    padding-left:100px;
+    
+}
+.inner-right{
+    display: flex;
+    justify-content:space-between;
+    max-height: 30px;
+    padding-top: 5px;
+    padding-right: 100px;
+    text-align: right;
+    
+   
+}
+
+.navicon,.navicon2{
+    display: flex;
+    justify-content: center;
+    padding: 5px ;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+    color:white
+    
+}
+.navicon2{
+    background-color: grey;
+}
+#btn{
+    width: 60px;
+    transition-duration: 0.4s;
+    cursor: pointer;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    border-radius: 15px;
+    border-style: none;
+    color:white;
+    font-size: large;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+}
+.navicon2:hover{
+    border-style: groove;
+    background-color: rgb(53, 52, 52);
+}
+.navicon:hover{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    opacity: 0.8;
+}
+.intro{
+    padding: 30px;
+}
+.int{
+    font-size: 55px;
+    padding-bottom: 10px;
+    font-family: 'Play', sans-serif;
+}
+#gstart{
+    background-color: #0b68a6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gstart:hover{
+    background-color: #79c4f7;
+    color:#000000;
+
+}
+
+.ig{
+    padding: 25px 100px;
+    transition: transform 0.5s ease;
+}.ig:hover{
+    
+    transform: translateY(0);
+}
+#we {
+    /* width: 100%;
+    transform: scale(0.9); 
+    transition: transform 0.5s ease; width: 100%;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(232, 46, 46, 0.1);  */
+    width: 80%;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values for the shadow */
+    animation: zoomInOut 4s infinite alternate; /* Adjust the duration and other properties */
+  }
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1); /* Initial scale (normal size) */
+    }
+    100% {
+      transform: scale(1.1); /* Final scale (zoomed in) */
+    }
+  }
+  
+/*   
+  #we:hover {
+    transform: scale(1); 
+  } */
+.heading{
+    text-align: center;
+    color:#000000;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.heading span{
+
+    text-transform: uppercase;
+}
+.service .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(23rem, 1fr));
+    gap:1.5rem;
+    padding:2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service .box-container .box{
+    opacity: 0.8;
+    border-radius: .5rem;
+    text-align: center;
+    /* padding: 1.8rem; */
+    overflow: hidden;
+    position: relative;
+    display: inline-block;cursor: pointer;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+.service .box-container .box:hover{
+    background-color: rgb(192, 233, 243);
+    opacity: 1;
+    
+}
+.child{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 1.1s;
+}
+.box:hover .child{
+    transform: scale(1.1);
+}
+.service .box-container .map{
+    
+    background-image: url(https://img.freepik.com/free-photo/abstract-blurred-people-seminar-event-background_1439-7.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1700524800&semt=ais);
+}
+.service .box-container .map:hover{
+    opacity: 1;
+}
+.service .box-container .env{
+    background-image: url(https://img.freepik.com/premium-psd/wedding-table-with-invitation-mockup_23-2149459847.jpg);
+}
+.service .box-container .env:hover{
+    opacity: 1;
+}
+.service .box-container .mus{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.popoptiq.com/wp-content/uploads/2019/01/1-26-1.jpg.webp);
+}
+.service .box-container .mus:hover{
+    opacity: 1;
+}
+.service .box-container .cake{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.staticmb.com/mbcontent/images/uploads/2022/8/birthday-decoration.jpg);
+}
+.service .box-container .cake:hover{
+    opacity: 1;
+}
+.service .box-container .uten{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.ziprecruiter.com/svc/fotomat/public-ziprecruiter/cms/650654722DirectorofCatering.jpg=ws1280x960);
+}
+.service .box-container .uten:hover{
+    opacity: 1;
+}
+.service .box-container .pv{
+    background-image: url(https://www.shutterhow.com/wp-content/uploads/2022/05/unrecognizable-female-photographer-taking-photo-of-2022-01-18-23-16-55-utc-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.service .box-container .pv:hover{
+    opacity: 1;
+}
+.service .box-container .box .ic{
+    height: 3rem;
+    width: 3rem;
+    padding: 10px;
+    border-radius: 35px;
+    font-size: 2.5rem;
+    background-color: rgb(255, 255, 255);
+    color: #464444;
+}
+.service .box-container .box h3{
+    font-size: 2rem;
+    color:rgb(44, 43, 43);
+   
+}
+.service .box-container .box p{
+    font-size: 1rem;
+    color:#000000;
+    
+}
+.service{
+    background-color: aliceblue;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+

@@ -10,12 +10,20 @@ import Contact from '../Contact/Contact'
 import Footer from './Footer/Footer'
 
 
-
 export default function Mainpg() {
     const navigate=useNavigate();
     const handleLogout=()=>{
         window.alert('Are you sure you want to log out?');
         navigate('/');
+    }
+    const handleWed=()=>{
+      navigate('/login/Main/DestinationWedding')
+    }
+    const handleInv=()=>{
+      navigate('/login/Main/Invitation');
+    }
+    const handleCat=()=>{
+      navigate('/login/Main/Catering');
     }
 
   return (
@@ -49,15 +57,15 @@ export default function Mainpg() {
             <h1 className='heading'> Our <span style={{color:'darkblue'}}>Services</span></h1>
             
             <div className='box-container' id='map'>
-            <div className='box' >
+            <div className='box' onClick={handleWed}>
               <div className='child map'> 
             <FontAwesomeIcon className='ic' icon={faMapMarkerAlt} />
             <h3>Destination Wedding</h3>
             <p>lorem ipsum</p>
             </div>
           </div>
-          <div className='box'  id='env'>
-          <div className='child env'> 
+          <div className='box'  id='env' >
+          <div className='child env' onClick={handleInv}> 
             <FontAwesomeIcon className='ic' icon={faEnvelope} />
             <h3>Invitation Card</h3>
             <p>lorem ipsum</p>
@@ -70,7 +78,7 @@ export default function Mainpg() {
             <p>lorem ipsum</p>
             </div>
           </div>
-          <div className='box' id='uten' >
+          <div className='box' id='uten'  onClick={handleCat}>
             <div className='child uten'>
             <FontAwesomeIcon className='ic' icon={faUtensils} />
             <h3>Catering</h3>
